@@ -109,6 +109,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias commitlint:last="commitlint --from HEAD~1 --to HEAD --verbose"
 alias cpf="copyfiles"
-alias tnode="ts-node"
+alias tsn="ts-node"
 
 autoload -U zmv
