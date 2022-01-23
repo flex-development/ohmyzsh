@@ -73,7 +73,6 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(
   docker-compose
   dotenv
-  gcloud
   git
   gitignore
   jwt
