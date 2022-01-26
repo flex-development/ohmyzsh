@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Call `nvm use` automatically
 # See: https://github.com/nvm-sh/nvm#zsh
 nvm-use() {
