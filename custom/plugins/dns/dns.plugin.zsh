@@ -1,1 +1,2 @@
-alias dns.reset="sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
+alias dns.flushcache="sudo dscacheutil -flushcache"
+alias dns.reset="dns.flushcache && sudo killall -HUP mDNSResponder"

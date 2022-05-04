@@ -1,3 +1,4 @@
+alias open.brewfile="code-insiders ~/Brewfile"
 alias open.gitconfig="code-insiders ~/.gitconfig"
 alias open.npmrc="code-insiders ~/.npmrc"
 alias open.ohmyzsh="code-insiders ~/.oh-my-zsh"

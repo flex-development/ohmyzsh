@@ -71,14 +71,24 @@ HIST_STAMPS="yyyy-mm-dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  aws
+  commitlint
+  dns
   docker
   docker-compose
+  docker-doppler
+  doppler
   dotenv
+  gcloud
+  gh
+  git-escape-magic
   gitignore
-  nvm
+  lighthouse
+  nvm-use
+  open
   random-bytes
+  sudo
   urltools
-  vscode
   yarn
 )
 
@@ -96,7 +106,7 @@ export EDITOR='nano'
 # export ARCHFLAGS="-arch x86_64"
 
 # Set prompt
-PROMPT='%B%F{blue}%D{%L:%M:%S} %B%F{black}%n@%m %B%F{blue}:: %b%F{green}%0~ $(hg_prompt_info)$(git_prompt_info)%B%(!.%F{red}.%F{blue})»%f%b '
+PROMPT="%B%F{blue}%D{%L:%M:%S} %B%F{black}%n@%m %B%F{blue}:: %b%F{green}%0~ $(hg_prompt_info)$(git_prompt_info)%B%(!.%F{red}.%F{blue})»%f%b "
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
