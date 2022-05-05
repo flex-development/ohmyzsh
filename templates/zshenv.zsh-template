@@ -1,0 +1,19 @@
+{{/* # SEE: https://docs.doppler.com/docs/secret-injection-with-templates */}}
+# DOPPLER
+export DOPPLER_CONFIG={{.DOPPLER_CONFIG}}
+export DOPPLER_ENVIRONMENT={{.DOPPLER_ENVIRONMENT}}
+export DOPPLER_PROJECT={{.DOPPLER_PROJECT}}
+export DOPPLER_TOKEN={{.DOPPLER_TOKEN}}
+
+# GITHUB PERSONAL ACCESS TOKENS
+export GH_PAT={{.GH_PAT}}
+export PAT_CPR={{.PAT_CPR}}
+export PAT_GPR={{.PAT_GPR}}
+export PAT_REPO={{.PAT_REPO}}
+
+# NPM
+export NPM_TOKEN={{.NPM_TOKEN}}
+
+# TERMINUS
+# - https://pantheon.io/docs/terminus/install#machine-token
+export TERMINUS_MACHINE_TOKEN={{.TERMINUS_MACHINE_TOKEN}}
